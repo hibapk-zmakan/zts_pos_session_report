@@ -1,0 +1,11 @@
+<odoo>
+	 <record id="action_report_pos_details_custom" model="ir.actions.act_window">
+            <field name="name">Session Details</field>
+            <field name="res_model">pos.details.wizard.custom</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+    
+        <menuitem id="menu_report_order_details_custom" name="Session Details" action="action_report_pos_details_custom" parent="point_of_sale.menu_point_rep" sequence="5"/>
+</odoo>
